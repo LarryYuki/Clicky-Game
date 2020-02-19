@@ -1,0 +1,11 @@
+
+  .pic-container{
+    display: flex;
+      cursor: pointer;
+      margin: 5px 0px;
+      height: 100px;
+      width: 150px;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+  }

@@ -1,13 +1,19 @@
 import React from 'react'
+import "./Cards.css"
 
+console.log()
 function Cards(props) {
-    return (
+    // <div onClick={()=> props.imageClick(props.)}
+ return(
+       // <div className='pic-container'>
         <img 
+        className='pic-container'
         src={props.imageLink}
         alt={props.name}
-        onClick={()=>props.handlerNONSENSE(props.name)}
+        onClick={()=>props.picClick(props.name)}
         />
-    )
+   // </div>
+   )
 }
 
 export default Cards

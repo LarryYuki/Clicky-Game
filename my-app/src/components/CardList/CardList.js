@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Cards from '../Card/Cards';
+
 
 function CardList() {
     return (
-        <div>
-            
+        <div className= 'container'>
+            <Cards key={} imageClick={props.imageClick}  />
         </div>
     )
 }
