@@ -1,9 +1,11 @@
 
+## Clicky Game
 
+In this game, user can achieve higher score by clicking on the images. Every time user
 
+click on an image, images shuffle by their position. User may only click each image once
 
-
-
+in order to win the game. If an image was clicked twice, the game restarts.
 
 
 
@@ -14,7 +16,7 @@ Clicky Game is deployed on Heroku. Please check it out [here](https://hw19clicky
 
 ### Install
 
-- Some basic Git commands are:
+ Some basic Git commands are:
 
 ```
 $ git clone https://larryyuki.github.io/Clicky-Game/.
