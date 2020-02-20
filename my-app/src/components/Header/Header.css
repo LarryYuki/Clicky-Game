@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+    line-height: 10px;
+    background-color:rgba(34, 101, 202, 0.575);
+}
+.brand-logo {
+    font-size: 18px;
+    text-transform: uppercase;
+    color:rgb(179, 245, 185);
+  }
+  .score-details {
+    display: flex;
+    flex-direction: row;
+    color:rgb(179, 245, 185) ;
+  }
+  

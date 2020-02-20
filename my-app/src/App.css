@@ -1,11 +1,10 @@
-.App {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-
+.wrapper {
+  padding: 100px 0px;
+  background-color:wheat;
+  height: 80vh;
 }
+
+
 
 
 
